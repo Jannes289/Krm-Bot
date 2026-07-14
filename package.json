@@ -1,0 +1,15 @@
+{
+  "name": "krm-bewerbungs-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot mit Bewerbungs-Ticketsystem (Dropdown-Menü) für KRM",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
